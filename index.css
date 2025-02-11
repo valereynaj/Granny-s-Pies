@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial Bold, sans-serif;
+}
+
+body {
+    padding: 0px;
+    background-color: #f3f2e9;
+}
+
+/* Navigation using Flexbox */
+nav {
+    background: #4f4e28 ;
+    padding: 10px;
+    position: relative;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+}
+
+nav img {
+    height: 50px; 
+    width: auto; /* to maintain the aspect ratio */
+    position: absolute;
+    left: 20px; /* to keep the logo stay on the left side */
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    padding: 14px 16px;
+}
+nav ul li a:hover {
+    background-color: #f8ce61;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 10px;
+    flex-wrap: wrap;
+    gap: 70px;
+}
+
+.hero-text {
+    flex: 1;
+    padding-right: 10px;
+    max-width: 50%;
+    text-align: left;
+}
+
+.hero-text h1 {
+    font-size: 36px;
+    color: #333
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.cta-button {
+    display: inline-block;
+    background: #d18b00;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background: #a87200;
+}
+
+/* Image Styling */
+.hero-image {
+    flex: 1;
+    max-width: 45%;
+    display: flex;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    border: 4px solid #d18b00;
+    border-radius: 15px;
+}
+
+/* Our Recipes Section */
+.recipes {
+    background-color: #925f17;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.recipes h2 {
+    font-size: 32px;
+    color: #fbdd9d;
+    margin-bottom: 20px;
+}
+
+/* Container for recipe boxes */
+.recipe-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Recipe Box */
+.recipe-box {
+    position: relative;
+    width: 220px; /* Adjust size */
+    height: 300px;
+    overflow: hidden;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+/* Image */
+.recipe-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.85; 
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Text Overlay */
+.recipe-text {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 8px 15px;
+    border-radius: 10px;
+}
+
+/* Hover Effect */
+.recipe-box:hover img {
+    opacity: 1;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #4f4e28;
+    margin-top: 0px;
+}
+
+footer p {
+    color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-text {
+        max-width: 100%;
+        padding-right: 0;
+    }
+
+    .hero-image {
+        max-width: 80%; /* Reduce image size for mobile */
+        margin-top: 20px;
+    }
+}

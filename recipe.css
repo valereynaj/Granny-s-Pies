@@ -1,0 +1,79 @@
+/* recipe.css - Styling for pie.html */
+body {
+    background-color: white;
+    color: #404040;
+    font-family: Georgia, Garamond, sans-serif;
+    font-size: 11pt;
+}
+
+h1, h2 {
+    color: #A4A400;
+    background-color: #F0F0F0;
+    font-family: Century Gothic, Futura, Verdana, Geneva, sans-serif;
+    text-decoration: underline;
+}
+
+h1 {
+    text-align: center;
+    font-size: 22pt;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 18pt;
+}
+
+/* Layout for header */
+/* Style for the info box */
+.info-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFFC8;
+    padding: 15px;
+    border-radius: 8px;
+    width: 400px; /* Adjust width as needed */
+}
+
+/* Styling for the text content */
+.text-content {
+    flex: 1; /* Allows text to take up remaining space */
+}
+
+/* Styling for the image */
+.recipe-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-left: 15px; /* Adds spacing between text and image */
+}
+
+.reviews {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /
+}
+
+blockquote {
+    font-style: italic;
+    background-color: #FFFFC8;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+p {
+    color:#A4A400
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #4f4e28;
+    margin-top: 0px;
+}
+
+footer p {
+    color: white;
+}
