@@ -3,6 +3,9 @@
 ## Description
 This is **Assignment 1** for the **Web Programming Course (CSCV 337)**. The project is a simple **Recipe Website** built using **HTML and CSS**. It features a detailed recipe page, including preparation instructions, ingredient lists, and user reviews.
 
+## Live Demo
+You can demo this website on: https://grannyspiebyvalereyna.netlify.app/
+
 ## Features
 - Displays a recipe for **Grandma's Lemon Meringue Pie**
 - Includes sections for ingredients, directions, and user reviews
