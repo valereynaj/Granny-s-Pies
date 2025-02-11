@@ -1,27 +1,37 @@
-Recipe Website - Assignment 1 (Web Programming CSCV 337)DescriptionThis project is a Recipe Website built as part of Assignment 1 for the Web Programming Course (CSCV 337). The website provides a step-by-step guide to making Grandma's Lemon Meringue Pie, featuring a clean and structured layout using HTML and CSS. It includes sections for:
-Recipe title and image
-Ingredients list
-Step-by-step cooking instructions
-User reviews and testimonials
-Navigation links to related resources
-Technologies UsedHTML5 for structuring the content
-CSS3 for styling and layout
-Project Structurerecipe-website/
-│── index.html          # Main HTML file
-│── recipe.css          # CSS stylesheet for styling
-│── images/             # Folder for images (optional)
-└── README.md           # Project documentationHow to View the ProjectOption 1: Open LocallyDownload or clone the repository.
-Open index.html in a web browser (Chrome, Firefox, Edge, etc.).
-Option 2: Run Using a Local Server (Recommended)If you want to view the project as a real website, follow these steps:
-Open the project folder in VS Code or any code editor.
-Install the Live Server extension (if using VS Code).
-Right-click index.html and select Open with Live Server.
-The website will open in your default browser.
-How to Test the ProjectCheck Responsiveness: Resize the browser window to see how the layout adapts.
-Inspect Elements: Use Developer Tools (F12 or Right-click → Inspect) to analyze HTML and CSS.
-Modify Styles: Edit recipe.css to customize the appearance.
-Add More Recipes: Extend index.html by adding new recipe sections.
-Future ImprovementsAdd JavaScript for interactive features (e.g., collapsible instructions, user comments).
-Improve responsiveness for better mobile compatibility.
-Enhance the design with CSS animations and modern UI elements.
-CreditsDeveloped by [Your Name] for the CSCV 337 - Web Programming Course.
+# Recipe Website
+
+## Description
+This is **Assignment 1** for the **Web Programming Course (CSCV 337)**. The project is a simple **Recipe Website** built using **HTML and CSS**. It features a detailed recipe page, including preparation instructions, ingredient lists, and user reviews.
+
+## Features
+- Displays a recipe for **Grandma's Lemon Meringue Pie**
+- Includes sections for ingredients, directions, and user reviews
+- Styled using CSS for a visually appealing layout
+- Responsive layout with an image positioned to the right of the recipe details
+
+## Prerequisites
+To view or edit this project, you need:
+- A web browser (Chrome, Firefox, Edge, etc.)
+- A text editor (VS Code, Sublime Text, or Notepad++)
+
+## Instructions to View the Project
+1. **Clone or Download** this repository.
+2. Open the `index.html` file in a web browser.
+3. View the recipe details and formatted layout.
+
+## Instructions to Test the Project
+1. **Modify the CSS styles** in `recipe.css` to adjust the layout.
+2. **Test responsiveness** by resizing the browser window.
+3. **Edit the HTML** to add more recipes or modify the content.
+4. **Validate HTML & CSS** using [W3C Validator](https://validator.w3.org/) and [CSS Validator](https://jigsaw.w3.org/css-validator/).
+
+## Technologies Used
+- **HTML5** for structure
+- **CSS3** for styling
+
+## Author
+**Valereyna Jingga Kinantya**
+
+## License
+This project is for educational purposes only and is not intended for commercial use.
+
